@@ -1,0 +1,51 @@
+.helemaal {
+    height: 580px;
+    margin-top: 50px;
+    margin: 0;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    background-color: #FDFDFD;
+    margin-top: 30px;
+    padding: 20px 40px 40px;
+    box-shadow: 0px 15px 23px 3px rgba(0, 0, 0, 0.75);
+  }
+  .helemaal__image {
+    width: 20%;
+    float: bottom;
+    border-radius: 100px;
+  }
+  .helemaal__text {
+    display: inline;
+    font-size: 18px;
+  }
+.t1 {
+    max-width: 100%;
+}
+.textinfo {
+  text-decoration:none;
+  color: blueviolet;
+}
+.textinfo:hover {
+    font-weight: 900;
+}
+.img3 {
+    transition: all .2s ease-in-out; 
+    padding-top: 40px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.img3:hover {
+    transform: scale(1.2); 
+}
+footer {
+  color: white;
+    height: 70px;
+}
+audio {
+  visibility: hidden;
+}
+footer {
+  font-weight: 500;
+  text-align: center;
+}

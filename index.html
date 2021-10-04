@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<link rel="icon" type="image/png" href="img/vortex.png" />
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="Tim van Kortenhof" />
+<meta name="description" content="Tim van Kortenhof" />  
+
+<title>Tim van Kortenhof</title>
+
+<link rel="stylesheet" href="flags.css" crossorigin="anonymous">
+<link href="css/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
+<link href="css/style.css" rel="stylesheet" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", function(){
+		
+		window.addEventListener('scroll', function() {
+	       
+			if (window.scrollY > 50) {
+				document.getElementById('navbar_top').classList.add('fixed-top');
+
+				navbar_height = document.querySelector('.navbar').offsetHeight;
+				document.body.style.paddingTop = navbar_height + 'px';
+			} else {
+			 	document.getElementById('navbar_top').classList.remove('fixed-top');
+
+				document.body.style.paddingTop = '0';
+			} 
+		});
+	}); 
+
+</script>
+<script>
+	var all = document.getElementsByTagName("*");
+
+for (var i=0, max=all.length; i < max; i++) {
+ all[i].style.color = "red";
+}
+</script>
+</head>
+<body>
+
+	<audio src="audio/Heart of Eternity.mp3" autoplay></audio>
+
+<nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-primary ">
+ <div class="container">
+	<img href="index.html" style="width: 3%;" class="navbar-brand" src="img/vortex.png" alt="myHead">
+ 	 <a class="navbar-brand" href="#">Tim van Kortenhof</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="main_nav">
+	
+
+	<ul class="navbar-nav ms-auto">
+		<li onmouseenter="playAudio()" class="nav-item"><a class="nav-link" href="#"> Home </a></li>
+		<li onmouseenter="playAudio()" class="nav-item"><a class="nav-link" href="#overmij"> Over mij </a></li>
+		<li onmouseenter="playAudio()" class="nav-item"><a class="nav-link" href="#opleiding"> Opleiding </a></li>
+		<li onmouseenter="playAudio()" class="nav-item"><a class="nav-link" href="#toekomst"> Toekomst </a></li>
+		
+		<li class="nav-item dropdown">
+			<a onmouseenter="playAudio()" class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Social </a>
+		    <ul class="dropdown-menu dropdown-menu-right">
+			  <li><a onmouseenter="playAudio()" class="dropdown-item" target="_blank" href="https://www.instagram.com/versuitdeoven/"> Instagram </a></li>
+		    </ul>
+		</li>
+	</ul>
+
+  </div>
+ </div> 
+</nav>
+
+<div class="container" style="max-width: 1080px">
+
+<div class="helemaal" id="overmij" >
+
+<header class="py-4">
+	<h2 class="t1">Over mij</h2> 
+</header>
+
+<section>
+		<div class="helemaal__text">
+				<p class="t1">Ik ben <b>Tim van Kortenhof</b>, 16 jaar oud en ben geboren en getogen in <b>Sittard</b>. Ik volg op dit moment de 
+			<a class="textinfo" target="_blank" href="https://en.wikipedia.org/wiki/Software_development">ICT Software Developer</a> opleiding op het 
+			<a class="textinfo" target="_blank" href="https://vistacollege.nl/">VISTA college</a>. 
+			Daarvoor zat ik op het <a class="textinfo" target="_blank" href="https://dacapokijktnaarmij.nl/">DaCapo College</a> en volgde ik de opleiding 
+			<a class="textinfo" target="_blank" href="https://dacapokijktnaarmij.nl/produceren-installeren-energie-pie/">“PIE”</a> 
+			(produceren, installeren en energie). Op dit moment werk ik bij de 
+			<a class="textinfo" target="_blank" href="https://www.action.com/">Action</a> als vulploegmedewerker. 
+			In mijn vrije tijd zit ik graag op de laptop of computer en soms ook nog wel de Playstation. 
+			Mijn favoriete games op dit moment zijn <a class="textinfo" target="_blank" href="https://en.wikipedia.org/wiki/Fortnite">Fortnite</a>, 
+			<a class="textinfo" target="_blank" href="https://en.wikipedia.org/wiki/Call_of_Duty:_Black_Ops_II">Call Of Duty Black Ops ll</a> en 
+			<a class="textinfo" target="_blank" href="https://en.wikipedia.org/wiki/Grand_Theft_Auto_V">Grand Theft Auto V</a> 
+			<a class="textinfo" target="_blank" href="https://fivem.net/">(FiveM)</a>.</p>
+		</div>
+
+		<br><br>
+</section>
+</div>
+
+
+<div class="helemaal" id="opleiding" >
+
+	<header class="py-4">
+		<h2 class="t1">Opleiding</h2> 
+	</header>
+	
+	<section>
+			<div class="helemaal__text">
+				<p class="t1">Zojuist al aangegeven bij <a class="textinfo" href="#overmij">"Over mij"</a>
+					doe ik de opleiding <a class="textinfo" target="_blank" href="https://en.wikipedia.org/wiki/Software_development">
+					   ICT Software Developer</a> op <b>niveau 4</b>. 
+					   De opleiding duurt 4 jaar waarvan 1 jaar stage en in die 4 jaar zou ik graag meerdere soorten 
+					   <a class="textinfo" class="dikgedrukt" target="_blank" href="https://nl.wikipedia.org/wiki/Programmeertaal">
+						   programmeertalen</a> willen leren. Bijvoorbeeld 
+						   <a class="textinfo" target="_blank" href="https://nl.wikipedia.org/wiki/PHP">PHP</a>, 
+						   <a class="textinfo" target="_blank" href="https://nl.wikipedia.org/wiki/Python_(programmeertaal)">Python</a>, 
+						   <a class="textinfo" target="_blank" href="https://nl.wikipedia.org/wiki/C%E2%99%AF">C#</a>, 
+						   <a class="textinfo" target="_blank" href="https://nl.wikipedia.org/wiki/Dart_(programmeertaal)">Dart</a> en 
+						   <a class="textinfo" target="_blank" href="https://nl.wikipedia.org/wiki/Swift_(programmeertaal)">Swift</a>. </p> 
+			</div>
+
+			<img style="width: 30%;" class="img3" src="img/life motto.gif" alt="microsoft">
+	
+			<br><br>
+	</section>
+	</div>
+
+
+	<div class="helemaal" id="toekomst" >
+
+		<header class="py-4">
+			<h2 class="t1">Toekomst</h2> 
+		</header>
+		
+		<section>
+				<div class="helemaal__text">
+					<p class="t1">Nadat ik mijn <b>MBO</b> opleiding heb afgerond wil ik graag naar het <b>HBO</b> 
+						en daar nog verder leren. Ook zou ik graag willen emigreren naar de <b>Verenigde Staten</b>
+
+						. 
+						Mijn droombaan is om later bij <a class="textinfo" target="_blank" href="https://en.wikipedia.org/wiki/Google">Google</a> of 
+						<a class="textinfo" target="_blank" href="https://en.wikipedia.org/wiki/Microsoft">Microsoft</a> te werken. 
+						Het gaat misschien veel tijd en werk kosten, maar ik heb het er allemaal voor over. </p>
+				</div>
+
+				<img class="img3" src="img/microsoft.gif" alt="microsoft">
+		
+				<br><br>
+		</section>
+		</div>
+
+
+
+</div>
+
+<audio id="audioID">
+	<source src="audio/selection.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+	var audio1 = document.getElementById("audioID");
+
+
+function playAudio() {
+  audio1.play();
+}
+</script>
+
+</body>
+<footer>
+<p class="footertext">Copyright © 2021 Tim van Kortenhof</p>
+</footer>
+</html>
